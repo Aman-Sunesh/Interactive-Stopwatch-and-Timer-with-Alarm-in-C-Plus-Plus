@@ -39,7 +39,7 @@ cd Interactive-Stopwatch-and-Timer-with-Alarm-in-C-Plus-Plus
 ## Compilation
 Compile the C++ source code using your preferred compiler. For example, using g++:
 ```bash
-g++ -std=c++11 -o Stopwatch_Timer main.cpp -lwinmm
+g++ -std=c++11 -o Stopwatch_Timer main.cpp Stopwatch.cpp Timer.cpp Utils.cpp -lwinmm
 ```
 Ensure that all necessary files (e.g., main.cpp) are in the project directory.
 
