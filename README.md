@@ -29,7 +29,7 @@ If you don't have a C++ compiler installed, you can install `g++` using the foll
 - **For Windows:**
     - Install [MinGW](http://www.mingw.org/) or use [Visual Studio](https://visualstudio.microsoft.com/) with C++ development tools.
 
-### Clone the Repository
+## Clone the Repository
 Clone the repository to your local machine using Git:
 ```bash
 git clone https://github.com/yourusername/Interactive-Stopwatch-and-Timer-with-Alarm-in-C-Plus-Plus.git
