@@ -3,25 +3,27 @@
 ## Overview
 The **Stopwatch and Timer with Alarm** is a C++ application that provides an interactive command-line interface for managing a stopwatch and a countdown timer with an alarm feature. This project is ideal for learning about time management in programming, interactive console applications, and working with C++ libraries for threading, sound playback, and input handling.
 
+> **Note**: This application is Windows-only because it uses Windows-specific libraries (`conio.h`, `windows.h`, and `winmm.lib`) for console input and sound playback. It will not compile or function properly on Linux/macOS without modifications.
+
 ## Prerequisites
-Before running the application, ensure you have the following installed:
-- A C++ Compiler supporting C++11 or higher (e.g., `g++`, `Clang`, or Visual Studio).
-- Windows environment for alarm functionality (uses `winmm.lib` for sound playback).
+Before running the application, ensure you have:
+- A C++ Compiler supporting C++11 or higher (e.g., `g++`, Clang, or Visual Studio).
+- A **Windows environment** for alarm functionality (uses `winmm.lib`).
 - Basic knowledge of running command-line programs.
 
 ## Installation
 
 ### C++ Compiler Installation
-If you don't have a C++ compiler installed, you can install `g++` using the following commands:
+If you don’t have a C++ compiler installed, you can install g++ using the following commands (but remember you must be on Windows for this specific code to work due to library dependencies):
 
 
-- **For Ubuntu/Debian-based systems:**
+- **For Ubuntu/Debian-based systems (not supported out of the box for this project):**
   ```bash
   sudo apt update
   sudo apt install build-essential
   ```
 
-- **For macOS (using Homebrew):**
+- **For macOS (using Homebrew) (not supported out of the box for this project):**
     ```bash
     brew install gcc
     ```
