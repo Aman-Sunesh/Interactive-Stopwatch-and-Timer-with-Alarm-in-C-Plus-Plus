@@ -104,6 +104,22 @@ After compilation, execute the program:
 
 ---
 
+## Screenshots
+
+### Stopwatch Paused
+Below is a screenshot showing the stopwatch in a paused state:
+![Stopwatch Paused](./screenshots/Stopwatch.png)
+
+*The stopwatch is paused at the displayed time.*
+
+### Timer Ended (Alarm Ringing)
+Here is a screenshot demonstrating what happens when the timer reaches zero:
+![Timer Ended](./screenshots/Timer.png)
+
+*An alarm sound will play, and you can press `Y` to stop it.*
+
+---
+
 ## Important Notes
 
 ### Sound Playback
